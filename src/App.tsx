@@ -10,14 +10,14 @@ interface NavItem {
 const navItems: NavItem[] = [
   {
     label: 'Typing Test',
-    href: '/typing',
+    href: 'https://typing.neonpixels.co.uk',
     // color: '#F2A536',
     color: '#F55A42',
     className: 'text-4xl font-light',
   },
   {
     label: 'ALIEN BULLET HELL',
-    href: '/aliens',
+    href: 'https://aliens.neonpixels.co.uk',
     color: '#4FA4B9',
     className: 'text-4xl font-light italic',
   },
