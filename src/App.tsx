@@ -23,7 +23,7 @@ const navItems: NavItem[] = [
   },
   { label: 'Font Mixer', href: 'https://fontmixer.app', color: '#46A361' },
   { label: 'DevTok', href: 'https://devtok.dev', color: '#51606B' },
-  { label: 'IQ Game (coming soon)', color: '#7D62A6' },
+  { label: 'IQ (coming soon)', color: '#7D62A6' },
 ]
 
 const darken = (color: string) => {
@@ -51,7 +51,7 @@ function App() {
           <a
             key={idx}
             href={href}
-            className={`link-hover font-header w-full p-8 text-white text-4xl text-[${darken(
+            className={`link-hover diagonal-edge font-header w-11/12 p-8 text-white text-4xl text-[${darken(
               color
             )}] ${className}`}
             style={{ backgroundColor: color }}
@@ -60,8 +60,11 @@ function App() {
           </a>
         ))}
       </div>
-      <p className="text-gray-400 text-lg p-4">
-        © 2025 Jason Torres. More about me{' '}
+      <p className="text-orange-500 text-lg p-4">
+        © 2025 <span className="font-bold">Jason Torres.</span> I'm a London
+        based <span className="font-bold">CTO, Founder, and Developer.</span>
+        <br />
+        More about me{' '}
         <a href="https://www.jasontorres.com" className="text-white">
           here
         </a>{' '}

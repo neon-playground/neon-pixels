@@ -45,11 +45,13 @@ h6 {
 .link-hover {
   position: relative;
   overflow: hidden;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 100ms ease-in-out;
 }
 
 .link-hover:hover {
-  transform: scale(1.02);
+  width: 100%;
+  transform: 100ms scale(1.02);
+  transition: width 300ms ease-in-out;
 }
 
 .link-hover::before {
@@ -59,14 +61,21 @@ h6 {
   background: linear-gradient(
     90deg,
     transparent 0%,
-    rgba(255, 255, 255, 0.35) 50%,
+    rgba(255, 141, 3, 1) 50%,
     transparent 100%
   );
   transform: translateX(-100%);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 800ms ease-in-out;
 }
 .link-hover:hover::before {
   transform: translateX(100%);
+}
+
+/* Diagonal edge clip-path */
+.diagonal-edge {
+  position: relative;
+  overflow: hidden;
+  clip-path: polygon(0 0, 100% 0, calc(100% - 6rem) 100%, 0 100%);
 }
 
 body {
