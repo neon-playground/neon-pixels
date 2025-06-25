@@ -10,7 +10,7 @@ interface NavItem {
 const navItems: NavItem[] = [
   {
     label: 'Typing Test',
-    href: '/typing-test',
+    href: '/typing',
     // color: '#F2A536',
     color: '#F55A42',
     className: 'text-4xl font-light',
@@ -62,7 +62,7 @@ function App() {
       </div>
       <p className="text-gray-400 text-lg p-4">
         © 2025 Jason Torres. More about me{' '}
-        <a href="https://www.jasontorres.dev" className="text-white">
+        <a href="https://www.jasontorres.com" className="text-white">
           here
         </a>{' '}
         and{' '}
