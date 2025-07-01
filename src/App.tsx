@@ -1,3 +1,4 @@
+import type { JSX } from 'react'
 import './App.css'
 
 interface NavItem {
@@ -27,7 +28,7 @@ const navItems: NavItem[] = [
   },
   {
     label: 'Code Snippets',
-    href: 'https://snippets.neonpixels.co.uk',
+    href: 'https://snippets.devtok.dev',
     color: '#F2A536',
     className: 'text-4xl font-light w-full',
   },
@@ -37,6 +38,11 @@ const navItems: NavItem[] = [
     label: 'Comic Odyssey',
     href: 'https://www.comic-odyssey.com',
     color: 'rgb(75, 141, 141)',
+  },
+  {
+    label: 'BetterGov',
+    href: 'https://bettergov.ph',
+    color: '#D65A42',
   },
   // { label: 'IQ (coming soon)', color: '#7D62A6' },
 ]
