@@ -61,9 +61,7 @@ function App() {
   return (
     <div className="bg-[#392433] w-full min-h-screen flex flex-col gap-2 py-12">
       <div className="flex flex-col gap-2 mb-8 px-4">
-        <h1 className="text-5xl md:text-7xl font-header">
-          <span>|</span> Neon Pixels
-        </h1>
+        <h1 className="text-5xl md:text-7xl font-header">Neon Pixels</h1>
         <p className="text-xl md:text-2xl text-orange-500">
           A mixtape of my hobby projects.
         </p>
