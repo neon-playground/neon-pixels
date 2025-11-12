@@ -33,7 +33,8 @@ const navItems: NavItem[] = [
     className: 'text-4xl font-light w-full',
   },
   { label: 'Font Mixer', href: 'https://fontmixer.app', color: '#46A361' },
-  { label: 'DevTok', href: 'https://devtok.dev', color: '#51606B' },
+  { label: 'SnapKit Pro', href: 'https://snapkit.pro', color: 'rgb(145, 81, 132)' },
+  // { label: 'DevTok', href: 'https://devtok.dev', color: '#51606B' },
   {
     label: 'Comic Odyssey',
     href: 'https://www.comic-odyssey.com',
